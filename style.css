@@ -1,0 +1,79 @@
+/* Configuração geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Formulário de pesquisa */
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Campo de pesquisa */
+input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botão de pesquisa */
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
+
+/* Efeito ao passar o mouse no botão */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Tabela */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+}
+
+/* Células da tabela */
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Alterna a cor das linhas */
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* Efeito ao passar o mouse sobre uma linha */
+tr:hover {
+    background-color: #e8e8e8;
+}
+
+/* Destaca a posição do ranking */
+td:first-child {
+    font-weight: bold;
+}
